@@ -1,0 +1,147 @@
+.pricing {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+}
+
+/* Stack all cards vertically */
+.pricing-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #e5e5e5;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  border-color: #176b87;
+  transform: translateY(-5px);
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.pricing-card h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #176b87;
+  margin-bottom: 0.5rem;
+}
+
+.price-period {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-card ul li {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.btn-primary {
+  background: #176b87;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #0f4f63;
+  transform: translateY(-2px);
+}
+
+.features {
+  padding: 60px 20px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.coming-soon {
+  background: #ffd200;
+  color: #0f1a1f;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
