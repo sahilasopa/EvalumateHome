@@ -8,7 +8,7 @@ const HeroSection = () => {
           {/* Left text */}
           <div className="hero-text">
             <h1>
-              Grade smarter in <span>seconds</span>, not hours
+              Grade smarterrrrrrrrrrrrr in <span>seconds</span>, not hours
             </h1>
             <p>
               Save <strong>80% of grading time</strong> with AI that reads
